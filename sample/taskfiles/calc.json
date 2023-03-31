@@ -1,0 +1,10 @@
+{
+    "convertor": "calc",
+    "params": {
+        "input_col_idx1": "出生数",
+        "input_col_idx2": "人口",
+        "operator": "/",
+        "output_col_name": "出生率（計算）",
+        "overwrite": false
+    }
+}

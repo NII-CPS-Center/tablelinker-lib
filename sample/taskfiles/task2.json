@@ -1,0 +1,8 @@
+{
+    "convertor":"concat_title",
+    "params":{
+        "title_lines": 3,
+        "separator":"",
+        "hierarchical_heading":true
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "convertor": "delete_pattern_match",
+    "params": {
+        "input_col_idx":0,
+        "pattern":"(^$|.+区部$|.+市$)"}
+}

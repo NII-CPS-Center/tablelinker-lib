@@ -1,0 +1,7 @@
+{
+    "convertor": "move_col",
+    "params": {
+        "input_col_idx": "経度",
+        "output_col_idx": "緯度"
+    }
+}

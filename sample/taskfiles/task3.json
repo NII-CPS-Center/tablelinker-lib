@@ -1,0 +1,18 @@
+[
+    {
+        "convertor":"rename_col",
+        "params":{
+            "input_col_idx":0,
+            "output_col_name":"地域"
+        }
+    },
+    {
+        "convertor":"concat_title",
+        "params":{
+            "title_lines":3,
+            "separator":"",
+            "hierarchical_heading":true
+        }
+    }
+]
+

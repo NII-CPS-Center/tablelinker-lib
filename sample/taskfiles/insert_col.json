@@ -1,0 +1,8 @@
+{
+	"convertor": "insert_col",
+	"params": {
+		"output_col_idx": "所在地",
+		"output_col_name": "都道府県名",
+		"value": "東京都"
+	}
+}

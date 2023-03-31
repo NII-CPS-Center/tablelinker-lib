@@ -1,0 +1,49 @@
+[
+    {
+        "note": "国勢調査 都道府県・市区町村別の主な結果表の見出しを整形",
+        "convertor": "concat_title",
+        "params": {
+            "lineno_from":4,
+            "lines":5,
+            "separator":" ",
+            "hierarchical_heading":true
+        }
+    },
+    {
+        "note": "都道府県コードと都道府県名を分割",
+        "convertor": "split_col",
+        "params": {
+            "input_col_idx":0,
+            "output_col_idxs":[
+                "都道府県コード", "都道府県名"
+            ],
+            "separator":"_"
+        }
+    },
+    {
+        "note": "市区町村コードと市区町村名を分割",
+        "convertor": "split_col",
+        "params": {
+            "input_col_idx":1,
+            "output_col_idxs":[
+                "市区町村コード", "市区町村名"
+            ],
+            "separator":"_"
+        }
+    },
+    {
+        "note": "必要な列だけ選択",
+        "convertor": "mapping_cols",
+        "params": {
+            "column_map": {
+                "都道府県コード": "都道府県コード",
+                "市区町村コード": "市区町村コード",
+                "都道府県名": "都道府県名",
+                "市区町村名": "市区町村名",
+                "人口_総数": "総人口（男女別） 総数 （人）",
+                "人口_男": "総人口（男女別） 男 （人）",
+                "人口_女": "総人口（男女別） 女 （人）"
+            }
+        }
+    }
+]

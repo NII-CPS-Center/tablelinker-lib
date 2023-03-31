@@ -1,0 +1,61 @@
+[
+    {
+        "convertor": "geocoder_code",
+        "params": {
+            "input_col_idx": "住所",
+            "output_col_name": "5桁コード",
+            "with_check_digit": false,
+            "output_col_idx": 1
+        }
+    },
+    {
+        "convertor": "geocoder_latlong",
+        "params": {
+            "input_col_idx": "住所",
+            "output_col_names": [
+                "緯度",
+                "経度",
+                "ジオコーディングレベル"
+            ],
+            "output_col_idx": null,
+            "overwrite": false
+        }
+    },
+    {
+        "convertor": "auto_mapping_cols",
+        "params": {
+            "column_list": [
+                "都道府県コード又は市区町村コード",
+                "NO",
+                "都道府県名",
+                "市区町村名",
+                "名称",
+                "名称_カナ",
+                "名称_英語",
+                "POIコード",
+                "住所",
+                "方書",
+                "緯度",
+                "経度",
+                "利用可能曜日",
+                "開始時間",
+                "終了時間",
+                "利用可能日時特記事項",
+                "料金（基本）",
+                "料金（詳細）",
+                "説明",
+                "説明_英語",
+                "アクセス方法",
+                "駐車場情報",
+                "バリアフリー情報",
+                "連絡先名称",
+                "連絡先電話番号",
+                "連絡先内線番号",
+                "画像",
+                "画像_ライセンス",
+                "URL",
+                "備考"
+            ]
+        }
+    }
+]

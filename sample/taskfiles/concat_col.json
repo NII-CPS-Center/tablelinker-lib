@@ -1,0 +1,10 @@
+{
+    "convertor": "concat_col",
+    "params": {
+        "input_col_idx1": "都道府県名",
+        "input_col_idx2": "市区町村名",
+        "separator": " ",
+        "output_col_name": "自治体名",
+        "delete_col": true
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "convertor":"select_string_contains",
+    "params":{
+        "input_col_idx": "名称",
+        "query": "国森家"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "convertor": "delete_col",
+    "params": {
+        "input_col_idx": "座標系"
+    }
+}

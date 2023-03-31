@@ -1,0 +1,7 @@
+{
+    "convertor": "split_row",
+    "params": {
+        "input_col_idx": "アクセス方法",
+        "separator": "。"
+    }
+}

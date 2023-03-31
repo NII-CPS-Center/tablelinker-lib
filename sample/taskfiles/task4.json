@@ -1,0 +1,20 @@
+[
+    {
+        "note": "先頭列名を「地域」に変更。",
+        "convertor":"rename_col",
+        "params":{
+            "input_col_idx":0,
+            "output_col_name":"地域"
+        }
+    },
+    {
+        "note": "先頭3行をタイトルとして結合。",
+        "convertor":"concat_title",
+        "params":{
+            "title_lines":3,
+            "separator":"",
+            "hierarchical_heading":true
+        }
+    }
+]
+
