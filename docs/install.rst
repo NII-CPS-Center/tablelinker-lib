@@ -17,7 +17,7 @@ Tablelinker パッケージのインストール
 
 Tablelinker は pip コマンドでインストールできます。 ::
 
-    pip install tablelinker
+    pip install tablelinker-lib
 
 ただし、 Python のバージョンが 3.7 以上、 3.10 以下である必要があります。
 
@@ -42,7 +42,7 @@ Python 3.10 をインストールしてからご利用ください。
     (表示されるメッセージに従って PATH などを設定)
     % pyenv install 3.10
     % pyenv local 3.10
-    % python -m pip install tablelinker
+    % python -m pip install tablelinker-lib
 
 Windows の場合
 ^^^^^^^^^^^^^^
@@ -53,7 +53,7 @@ Tablelinker をインストールできます。
 
 .. code-block:: powershell
 
-    > pip install tablelinker
+    > pip install tablelinker-lib
 
 複数の Python バージョンをインストールしている場合、
 Python launcher ``py.exe`` を実行して `利用するバージョンを指定する
@@ -66,7 +66,7 @@ Python launcher ``py.exe`` を実行して `利用するバージョンを指定
     Installed Pythons found by C:\WINDOWS\py.exe Launcher for Windows
      -3.9-64 *
      -3.10-64
-    > py -3.10 -m pip install tablelinker
+    > py -3.10 -m pip install tablelinker-lib
 
 インストール中に、以下のような警告が表示されます。 ::
 
@@ -115,7 +115,7 @@ Python 3.x 系のコマンドは ``python3``、 pip コマンドは ``pip3`` に
 
     (Ubuntu の場合)
     $ sudo apt install python3 python3-pip
-    $ pip3 install tablelinker
+    $ pip3 install tablelinker-lib
 
 
 住所辞書データのインストール
@@ -141,7 +141,7 @@ Python 3.x 系のコマンドは ``python3``、 pip コマンドは ``pip3`` に
 
 Tablelinker パッケージは pip uninstall でアンインストールできます。 ::
 
-    pip uninstall tablelinker
+    pip uninstall tablelinker-lib
 
 Mac の場合
 ^^^^^^^^^^
@@ -152,7 +152,7 @@ Python 3.10 をインストールした場合は、 ``pip`` でアンインス�
 
 .. code-block:: zsh
 
-    % pip uninstall tablelinker
+    % pip uninstall tablelinker-lib
 
 Windows の場合
 ^^^^^^^^^^^^^^
@@ -164,7 +164,7 @@ Tablelinker をインストールした Python バージョンを指定する
 
 .. code-block:: powershell
 
-    > py -3.10 -m pip uninstall tablelinker
+    > py -3.10 -m pip uninstall tablelinker-lib
 
 Linux の場合
 ^^^^^^^^^^^^
@@ -174,4 +174,4 @@ Linux の場合
 
 .. code-block:: bash
 
-    $ pip3 uninstall tablelinker
+    $ pip3 uninstall tablelinker-lib
